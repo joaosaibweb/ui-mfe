@@ -1,0 +1,10 @@
+{
+  "./components/Input": "./src/components/Input/index.tsx",
+  "./components/DataPickerInput": "./src/components/DataPickerInput/index.tsx",
+  "./components/AsyncFormSelect": "./src/components/AsyncFormSelect/index.tsx",
+  "./components/CheckBox": "./src/components/CheckBox/index.tsx",
+  "./components/Collapsible": "./src/components/Collapsible/index.tsx",
+  "./components/Dialog": "./src/components/Dialog/index.tsx",
+  "./components/FormSelect": "./src/components/FormSelect/index.tsx",
+  "./components/InputMoedaGrid": "./src/components/InputMoedaGrid/index.tsx"
+}
