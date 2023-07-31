@@ -1,12 +1,13 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPlugin");
 const exposesUi = require("./src/exposes/ui/paths.json");
+const urlsMfes = require("./url-mfes.json");
 
 const deps = require("./package.json").dependencies;
 
 module.exports = (_, argv) => ({
   output: {
-    publicPath: "http://localhost:3029/",
+  publicPath: `${urlsMfes.urlUi}/`,
   },
 
   resolve: {
@@ -49,7 +50,9 @@ module.exports = (_, argv) => ({
     new ModuleFederationPlugin({
       name: "ui",
       filename: "remoteEntry.js",
-      remotes: {},
+      remotes: {
+       host: `host@${urlsMfes.urlHostMfe}/remoteEntry.js`
+      },
       exposes: {
         ...exposesUi,
       },

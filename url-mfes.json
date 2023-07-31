@@ -1,0 +1,5 @@
+{
+    "urlHostMfe": "http://localhost:3026",
+    "urlManufacturingMfe":"http://localhost:3027",
+    "urlUi": "http://localhost:3029"
+}

@@ -5,6 +5,11 @@
   "./components/CheckBox": "./src/components/CheckBox/index.tsx",
   "./components/Collapsible": "./src/components/Collapsible/index.tsx",
   "./components/Dialog": "./src/components/Dialog/index.tsx",
+  "./components/DialogLoading": "./src/components/DialogLoading/index.tsx",
   "./components/FormSelect": "./src/components/FormSelect/index.tsx",
-  "./components/InputMoedaGrid": "./src/components/InputMoedaGrid/index.tsx"
+  "./components/InputMoedaGrid": "./src/components/InputMoedaGrid/index.tsx",
+  "./components/Tab": "./src/components/Tab/index",
+  "./components/Tooltip": "./src/components/Tooltip/index.tsx",
+  "./components/Grid": "./src/components/Grid/agGridTranslation.ts",
+  "./components/GridInput": "./src/components/GridInput/index.tsx"
 }

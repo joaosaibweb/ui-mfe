@@ -5,8 +5,8 @@ import Global from "./styles/global";
 const App = () => (
 
     <>
-    <Global />
-    <h1>ui-mfe</h1>
+        <Global />
+        <h1>ui-mfe</h1>
     </>    
    
 );
